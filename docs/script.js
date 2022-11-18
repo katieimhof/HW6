@@ -13,7 +13,8 @@ $(document).ready(function () {
         position: "absolute",
         left: "0px",
         top: "0px",
-        zIndex: "-1"
+        zIndex: "-1",
+        width: "100%"
     });
     var $header = $("#header").css({
         textShadow: "2px 2px #ADD8E6",
