@@ -14,7 +14,7 @@ $(document).ready(function () {
         left: "0px",
         top: "0px",
         zIndex: "-1",
-        objectFit: "contain"
+        backgroundSize: "cover"
     });
     var $header = $("#header").css({
         textShadow: "2px 2px #ADD8E6",
