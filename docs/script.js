@@ -10,18 +10,11 @@ $(document).ready(function () {
     var interval2;
     var interval3;
     var $bookImage = $("#books").css({
-        //position: "absolute",
-        //left: "0px",
-        //top: "0px",
         zIndex: "-1",
         minHeight: "100%",
         minWidth: "1024px",
-	
-        /* Set up proportionate scaling */
         width: "100%",
         height: "auto",
-	
-        /* Set up positioning */
         position: "fixed",
         top: "0",
         left: "0"
